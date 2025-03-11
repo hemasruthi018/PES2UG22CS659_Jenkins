@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './hello_exec'
+                sh './Invalid_file'
             }
         }
         stage('Deploy') {
